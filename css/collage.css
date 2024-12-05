@@ -73,3 +73,14 @@ body, html {
   grid-column: 6/8;
   grid-row: 1/6;
 }
+
+/* Confetti container */
+#confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; 
+  pointer-events: none;
+}
