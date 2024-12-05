@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="css/collage.css">
 </head>
 <body>
+    <audio class="song" controls loop autoplay>
+        <source src="Happy Birthday_files/music2.mp3">
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    
+    <script>
+        const audio = document.querySelector('.song');
+        audio.volume = 0.5; // Set volume to 50% (adjust this value as needed)
+    </script>
     <div class="grid">
         <div class="grid-item1"></div>
         <div class="grid-item2"></div>
